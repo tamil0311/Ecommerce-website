@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛒 ShopEasy</h1>
+
+    <div class="header-actions">
+        <input type="search" id="search-input" placeholder="Search products...">
+        <button type="button" id="search-button">🔍 Search</button>
+        <a href="cart.html">🛒 Cart</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2 class="page-title">Our Products</h2>
+
+    <div class="filter">
+        <button class="filter-button active" data-category="all">All</button>
+        <button class="filter-button" data-category="electronics">Electronics</button>
+        <button class="filter-button" data-category="fashion">Fashion</button>
+        <button class="filter-button" data-category="home">Home</button>
+
+        <select id="sort-products">
+            <option value="default">Default</option>
+            <option value="low-high">Price Low to High</option>
+            <option value="high-low">Price High to Low</option>
+        </select>
+    </div>
+
+    <div class="product-grid" id="product-grid"></div>
+</section>
+
+<footer>
+    <p>&copy; 2026 ShopEasy. All Rights Reserved.</p>
+
+    <p>
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="login.html">Login</a> |
+        <a href="cart.html">Cart</a>
+    </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

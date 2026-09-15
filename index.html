@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛒 ShopEasy</h1>
+
+    <div class="header-actions">
+        <input type="search" id="search-input" placeholder="Search products...">
+        <button type="button" id="search-button">🔍 Search</button>
+        <a href="cart.html">🛒 Cart</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to ShopEasy</h2>
+    <p>Find the products you love at the best prices.</p>
+    <a href="products.html" class="main-button">Shop Now</a>
+</section>
+
+<section>
+    <h2 class="page-title">Categories</h2>
+
+    <div class="category-grid">
+        <a href="products.html?category=electronics" class="category-card">
+            <h3>📱 Electronics</h3>
+            <p>Smartphones and electronic products</p>
+        </a>
+
+        <a href="products.html?category=fashion" class="category-card">
+            <h3>👕 Fashion</h3>
+            <p>Fashion products for everyone</p>
+        </a>
+
+        <a href="products.html?category=home" class="category-card">
+            <h3>🏠 Home</h3>
+            <p>Products for your home</p>
+        </a>
+    </div>
+</section>
+
+<section>
+    <h2 class="page-title">Featured Products</h2>
+
+    <div class="product-grid" id="home-product-grid"></div>
+</section>
+
+<section class="offer">
+    <h2>Special Offer</h2>
+    <p>Get amazing products at affordable prices.</p>
+    <a href="products.html" class="main-button">View Products</a>
+</section>
+
+<section>
+    <h2 class="page-title">Why Choose ShopEasy?</h2>
+
+    <div class="choose-grid">
+        <div>
+            <h3>🚚 Fast Delivery</h3>
+            <p>Quick and reliable delivery.</p>
+        </div>
+
+        <div>
+            <h3>💰 Best Prices</h3>
+            <p>Affordable prices for quality products.</p>
+        </div>
+
+        <div>
+            <h3>🔒 Secure Shopping</h3>
+            <p>Your shopping experience is safe.</p>
+        </div>
+
+        <div>
+            <h3>📞 Customer Support</h3>
+            <p>We are here to help you.</p>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+
+    <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="main-button">Subscribe</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 ShopEasy. All Rights Reserved.</p>
+
+    <p>
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="login.html">Login</a> |
+        <a href="cart.html">Cart</a>
+    </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
